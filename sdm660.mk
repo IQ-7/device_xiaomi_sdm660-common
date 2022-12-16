@@ -31,7 +31,6 @@ $(call inherit-product, vendor/dirac/dirac.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pe \
     $(LOCAL_PATH)/overlay-system
 
 # Soong namespaces
