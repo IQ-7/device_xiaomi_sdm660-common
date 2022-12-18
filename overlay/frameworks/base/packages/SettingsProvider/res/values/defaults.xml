@@ -23,7 +23,7 @@
 
     <bool name="def_wifi_on">true</bool>
 
-    <fraction name="def_window_animation_scale">50%</fraction>
-    <fraction name="def_window_transition_scale">50%</fraction>
+    <item name="def_window_animation_scale" format="float" type="dimen">0.5</item>
+    <item name="def_window_transition_scale" format="float" type="dimen">0.5</item>
 
 </resources>
