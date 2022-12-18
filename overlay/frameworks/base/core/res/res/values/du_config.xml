@@ -25,6 +25,6 @@
 <resources>
 
     <!-- Default state for LiveDisplay -->
-    <bool name="config_liveDisplayAvailable">false</bool>
+    <bool name="config_liveDisplayAvailable">true</bool>
 
 </resources>
