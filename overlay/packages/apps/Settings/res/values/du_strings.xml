@@ -12,8 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Corvus maintainer -->
-    <string name="maintainer">Maintainer</string>
-    <string name="corvus_maintainer">zacky</string>
+    <!-- Nusantara maintainer -->
+    <string name="maintainer_name">zacky</string>
 
 </resources>

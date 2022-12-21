@@ -31,12 +31,12 @@ $(call inherit-product, vendor/dirac/dirac.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-du \
+    $(LOCAL_PATH)/overlay-nad \
     $(LOCAL_PATH)/overlay-system
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-du/packages/apps/Snap \
+    $(LOCAL_PATH)/overlay-nad/packages/apps/Snap \
     $(LOCAL_PATH)/overlay-system
 
 # Soong namespaces
