@@ -33,8 +33,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Enable doze mode -->
     <bool name="doze_display_state_supported">true</bool>
 
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
-
     <!-- The CPU temperature sensor path, defaults to empty -->
     <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
 
@@ -43,4 +41,5 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <!-- Doze: check proximity sensor before pulsing? -->
     <bool name="doze_proximity_check_before_pulse">true</bool>
+
 </resources>
